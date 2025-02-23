@@ -1,0 +1,12 @@
+{
+  "hash": "58576d57507e529d3796de7dc813b4e8",
+  "result": {
+    "engine": "jupyter",
+    "markdown": "---\ntitle: \"Interactive 3D Visualization with ipyvolume\"\nformat:\n  html:\n    toc: true\n    code-fold: true\njupyter: python3\n---\n\n\n# **Interactive Visualization**\n\nThis page demonstrates an **interactive 3D plot using ipyvolume**.\n\n::: {.cell execution_count=1}\n\nimport ipyvolume as ipv\nimport numpy as np\n\nx, y, z = np.random.normal(0, 1, (3, 1000))\nipv.figure()\nipv.scatter(x, y, z, marker=\"sphere\", size=0.5, color=\"blue\")\nipv.show()\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}
