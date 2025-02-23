@@ -11,6 +11,10 @@ jupyter: python3
 
 This page demonstrates an **interactive 3D plot using ipyvolume**.
 
+Click the button below to launch the interactive notebook on Binder:
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rajmodi8905/actions-test/HEAD?labpath=exa.ipynb)
+
 ::: {.cell execution_count=1}
 ```{python}
 import ipyvolume as ipv
